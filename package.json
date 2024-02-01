@@ -9,13 +9,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.21.0",
+    "@react-native/metro-config": "^0.73.3",
+    "@react-navigation/native-stack": "^6.9.17",
+    "@types/react": "~18.2.14",
+    "axios": "^1.6.5",
     "expo": "~49.0.15",
+    "expo-cli": "^6.3.10",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
-    "react-native": "0.72.6"
+    "react-native": "0.72.6",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-maps": "^1.10.0",
+    "react-native-modal": "^13.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@types/react-native": "^0.73.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1"
   },
   "private": true
 }
